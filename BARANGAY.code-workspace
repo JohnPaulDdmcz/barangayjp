@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../BARANGGAY NI KIM"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BARANGGAY NI KIM"
+	}
+}

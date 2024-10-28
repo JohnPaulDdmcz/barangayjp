@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <div class="container">
+            <img src="Logo.png" alt="Barangay Bagong Bayan" class="barangay-image">
+            <h1>Welcome to Barangay Bagong Bayan</h1>
+            <nav>
+                <div class="menu-toggle" id="menuToggle">&#9776; Menu</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro-section">
+            <h2>About Our Barangay</h2>
+            <p>Welcome to Barangay Bagong Bayan, where we are committed to serving our community
+                 through various services and initiatives aimed at improving the lives of our residents.
+                 Barangay Bagong Bayan, located in San Pablo City, Laguna, has a rich history that reflects the broader socio-economic developments in the region. Officially established on March 27, 1963, it was created as part of a governmental initiative to reorganize local governance and enhance community administration.</p>
+            <p>Join us in making a positive impact through participation in our programs and activities!</p>
+        </section>
+    </main>
+ <!-- Pop-up Newsletter Form -->
+ <div id="newsletterPopup" class="popup">
+    <div class="popup-content">
+        <span class="close">&times;</span>
+        <h2>Subscribe to Our Newsletter</h2>
+        <form id="newsletterForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
